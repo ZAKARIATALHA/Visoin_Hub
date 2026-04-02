@@ -1,0 +1,222 @@
+// ============================================================
+// VISION HUB — Site-wide constants & editable content
+// Edit contact info, metrics, testimonials, and more here.
+// ============================================================
+
+export const SITE = {
+  name: "Vision Hub",
+  tagline: "Outsourcing & Operational Support Partner — Morocco",
+  description:
+    "Vision Hub helps international brands deploy customer support, field operations, and business teams in Morocco with speed, structure, and local expertise.",
+  url: "https://visionhub.ma", // ← replace with real domain
+  locale: "en",
+} as const;
+
+export const CONTACT = {
+  email: "contact@visionhub.ma", // ← replace
+  phone: "+212 5XX-XXXXXX", // ← replace
+  whatsapp: "+212 6XX-XXXXXX", // ← replace
+  whatsappLink: "https://wa.me/2126XXXXXXXX", // ← replace
+  address: "Casablanca, Morocco", // ← replace
+  bookingUrl: "#contact", // ← replace with Calendly or booking link
+} as const;
+
+export const NAV_LINKS = [
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Case Studies", href: "/case-studies" },
+  { label: "Industries", href: "/industries" },
+  { label: "Careers", href: "/careers" },
+  { label: "Contact", href: "/contact" },
+] as const;
+
+export const SERVICES = [
+  {
+    title: "Customer Support Outsourcing",
+    slug: "customer-support",
+    short:
+      "Multilingual support teams trained to deliver fast, consistent, and brand-aligned customer experiences.",
+    description:
+      "We build and manage dedicated customer support teams that integrate with your brand voice and SLA requirements. From phone and email to live chat, our agents are trained on your products, processes, and quality standards — delivering consistent service that scales with your business.",
+    forWhom: "Brands that need reliable, multilingual customer service coverage in Morocco or across the region.",
+    delivery: "We recruit, train, and manage agents in-house, with dedicated QA leads and real-time reporting dashboards.",
+    outcome: "Lower response times, higher CSAT scores, and a fully managed support operation you can scale on demand.",
+  },
+  {
+    title: "Field Operations & Brand Activation",
+    slug: "field-operations",
+    short:
+      "On-ground teams to execute retail presence, activations, and field performance with precision.",
+    description:
+      "We deploy field teams across Morocco to represent your brand in retail environments, events, and on-ground activations. Our teams are trained on brand standards and operate with clear KPIs, daily reporting, and structured coordination.",
+    forWhom: "Companies launching or expanding retail presence, running promotional campaigns, or needing field intelligence in Morocco.",
+    delivery: "End-to-end field management: recruitment, training, deployment, supervision, and performance reporting.",
+    outcome: "Stronger brand visibility, consistent retail execution, and real-time field data to guide decisions.",
+  },
+  {
+    title: "Back Office & Data Processing",
+    slug: "back-office",
+    short:
+      "Reliable operational support for data handling, reporting, and administrative workflows.",
+    description:
+      "We handle the operational backbone of your business — data entry, document processing, reporting, and administrative tasks — with accuracy and confidentiality. Our back-office teams integrate into your workflows and tools.",
+    forWhom: "Organizations with high-volume administrative, data processing, or reporting needs.",
+    delivery: "Dedicated teams working within your systems, with quality checks and process documentation built in.",
+    outcome: "Faster turnaround, fewer errors, and internal teams freed up to focus on higher-value work.",
+  },
+  {
+    title: "Recruitment & Team Deployment",
+    slug: "recruitment",
+    short:
+      "We source, train, and manage local talent aligned with your business needs.",
+    description:
+      "Finding the right people in a new market is hard. We handle the full cycle — sourcing, screening, onboarding, and ongoing management — so you get a team that's ready to perform from day one.",
+    forWhom: "International companies entering Morocco that need local teams without setting up their own HR infrastructure.",
+    delivery: "Full recruitment pipeline with structured onboarding, compliance handling, and team management.",
+    outcome: "Faster time-to-hire, lower attrition, and a workforce aligned with your standards and culture.",
+  },
+  {
+    title: "Sales Support",
+    slug: "sales-support",
+    short:
+      "Dedicated teams to support retail sales, product promotion, and conversion.",
+    description:
+      "We provide trained sales support staff who work at the point of sale — in retail stores, showrooms, and events — to drive product awareness and conversion. Our teams are managed with clear targets and daily performance tracking.",
+    forWhom: "Brands that need in-store sales presence, promotional staff, or product demonstration teams in Morocco.",
+    delivery: "Recruitment, product training, deployment, and performance management of sales support teams.",
+    outcome: "Higher sell-through rates, better product visibility, and measurable sales impact at the point of purchase.",
+  },
+] as const;
+
+export const METRICS = [
+  { value: "50+", label: "Active Field & Support Staff" },
+  { value: "10+", label: "Cities Covered in Morocco" },
+  { value: "48h", label: "Average Deployment Time" },
+  { value: "2", label: "International Brand Partners" },
+] as const;
+
+export const CASE_STUDIES = [
+  {
+    client: "Carlcare",
+    parent: "Transsion Group",
+    slug: "carlcare",
+    industry: "Consumer Electronics",
+    challenge:
+      "Carlcare needed structured field operations and customer support execution in Morocco to maintain service quality across multiple cities for Transsion's mobile brands.",
+    solution:
+      "Vision Hub deployed trained field and support teams across key locations, with standardized processes, daily reporting, and coordinated logistics to ensure consistent service delivery.",
+    scope: ["Field operations", "Customer support staffing", "Multi-city coordination", "Quality assurance"],
+    outcome:
+      "Improved on-ground execution consistency, faster response times, and a reliable operational structure that scaled with Carlcare's growing presence in Morocco.",
+  },
+  {
+    client: "Geely",
+    parent: "Geely Auto",
+    slug: "geely",
+    industry: "Automotive",
+    challenge:
+      "Geely required operational support to strengthen its brand presence and retail execution during its expansion in the Moroccan automotive market.",
+    solution:
+      "Vision Hub provided field teams and operational support aligned with Geely's brand standards, covering retail activations, staffing, and on-ground coordination.",
+    scope: ["Brand activation", "Retail staffing", "Field coordination", "Operational support"],
+    outcome:
+      "Stronger retail presence, well-executed brand activations, and a dependable local operations partner supporting Geely's market entry.",
+  },
+] as const;
+
+export const INDUSTRIES = [
+  {
+    name: "Automotive",
+    slug: "automotive",
+    description:
+      "Supporting automotive brands with showroom staffing, field coordination, launch activations, and after-sales support operations across Morocco.",
+    icon: "car",
+  },
+  {
+    name: "Consumer Electronics",
+    slug: "consumer-electronics",
+    description:
+      "Deploying customer service, retail support, and field teams for electronics brands managing multi-city operations and service networks.",
+    icon: "smartphone",
+  },
+  {
+    name: "Retail",
+    slug: "retail",
+    description:
+      "Providing in-store teams, promotional staff, and operational support for retail brands scaling their presence in Moroccan markets.",
+    icon: "store",
+  },
+  {
+    name: "Field Services",
+    slug: "field-services",
+    description:
+      "Managing distributed field teams for brands that need on-ground execution, data collection, audits, and location-based operations.",
+    icon: "mapPin",
+  },
+] as const;
+
+export const PROCESS_STEPS = [
+  {
+    step: 1,
+    title: "Discovery",
+    description: "We understand your business, needs, and operational goals.",
+  },
+  {
+    step: 2,
+    title: "Solution Design",
+    description: "We define the right team structure and execution model.",
+  },
+  {
+    step: 3,
+    title: "Recruitment & Setup",
+    description: "We hire, train, and prepare your team.",
+  },
+  {
+    step: 4,
+    title: "Deployment",
+    description: "We launch operations quickly and efficiently.",
+  },
+  {
+    step: 5,
+    title: "Monitoring & Optimization",
+    description: "We track performance and continuously improve.",
+  },
+] as const;
+
+export const TESTIMONIALS = [
+  {
+    quote:
+      "Vision Hub delivered strong field execution and reliable operational support. They understood our requirements and moved fast.",
+    author: "Client Representative",
+    company: "International Brand Partner",
+  },
+  {
+    quote:
+      "A professional and structured partner that made our expansion into Morocco significantly smoother.",
+    author: "Operations Director",
+    company: "Global Electronics Company",
+  },
+  // ← Add real testimonials here
+] as const;
+
+export const OPEN_POSITIONS = [
+  {
+    title: "Field Operations Coordinator",
+    location: "Casablanca, Morocco",
+    type: "Full-time",
+    department: "Operations",
+  },
+  {
+    title: "Customer Support Agent — French & Arabic",
+    location: "Casablanca, Morocco",
+    type: "Full-time",
+    department: "Customer Support",
+  },
+  {
+    title: "Sales Support Representative",
+    location: "Multiple Cities, Morocco",
+    type: "Full-time",
+    department: "Sales",
+  },
+  // ← Add real positions here
+] as const;
