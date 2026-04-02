@@ -2,33 +2,33 @@
 
 import { FadeIn } from "@/components/ui/motion";
 
-const brands = [
-  { name: "CARLCARE", sub: "Transsion Holdings" },
-  { name: "INFINIX", sub: null },
-  { name: "TECNO", sub: null },
-  { name: "ITEL", sub: null },
-  { name: "ORAIMO", sub: null },
-];
+const subBrands = ["Carlcare", "Infinix", "Tecno", "Itel", "Oraimo"];
 
 export function TrustStrip() {
   return (
-    <section className="py-14 bg-surface border-y border-border">
+    <section className="py-16 bg-surface border-y border-border">
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
         <FadeIn>
-          <p className="text-center text-sm text-muted-light uppercase tracking-widest mb-10">
-            Operating across Transsion Holdings brands in Morocco
-          </p>
+          <div className="text-center mb-10">
+            {/* Transsion Holdings — primary prominence */}
+            <div className="inline-flex items-center justify-center h-16 px-10 bg-primary rounded-xl mb-4">
+              {/* ← Replace with real Transsion Holdings logo in /public/logos/ */}
+              <span className="text-lg font-bold text-white tracking-wide">TRANSSION HOLDINGS</span>
+            </div>
+            <p className="text-sm text-muted-light uppercase tracking-widest">
+              Official operations partner in Morocco
+            </p>
+          </div>
         </FadeIn>
 
         <FadeIn delay={1}>
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
             {/* ← Replace these divs with real <Image> components and logo files in /public/logos/ */}
-            {brands.map((b) => (
-              <div key={b.name} className="flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                <div className="h-12 w-32 bg-muted-light/20 rounded-lg flex items-center justify-center">
-                  <span className="text-sm font-semibold text-muted tracking-wide">{b.name}</span>
+            {subBrands.map((name) => (
+              <div key={name} className="opacity-50 hover:opacity-100 transition-opacity">
+                <div className="h-11 px-6 bg-muted-light/15 rounded-lg flex items-center justify-center">
+                  <span className="text-sm font-semibold text-muted tracking-wide uppercase">{name}</span>
                 </div>
-                {b.sub && <span className="text-xs text-muted-light">{b.sub}</span>}
               </div>
             ))}
           </div>

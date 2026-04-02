@@ -67,8 +67,8 @@ export default function AboutPage() {
                 operational picture — from hiring and training to deployment, supervision, and performance tracking.
               </p>
               <p>
-                Today, we operate as the local execution partner for Carlcare (Transsion Holdings), managing
-                operations, retail, and marketing across their full brand portfolio — Infinix, Tecno, Itel, and Oraimo — in multiple cities across Morocco.
+                Today, we are the official operations partner of Transsion Holdings in Morocco, managing
+                operations, retail, and marketing for Carlcare and its brand portfolio — Infinix, Tecno, Itel, and Oraimo — across multiple cities.
               </p>
               <p>
                 Our approach is built on accountability, structured processes, and a deep understanding

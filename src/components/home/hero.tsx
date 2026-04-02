@@ -55,10 +55,9 @@ export function HeroSection() {
 
           <FadeUp delay={4}>
             <p className="mt-12 text-sm text-muted-light">
-              Trusted by{" "}
-              <span className="text-muted font-medium">Carlcare (Transsion Holdings)</span>{" "}
-              — operating across{" "}
-              <span className="text-muted font-medium">Infinix, Tecno, Itel & Oraimo</span>
+              Official operations partner of{" "}
+              <span className="text-muted font-medium">Transsion Holdings</span>{" "}
+              in Morocco — Carlcare, Infinix, Tecno, Itel & Oraimo
             </p>
           </FadeUp>
         </div>
