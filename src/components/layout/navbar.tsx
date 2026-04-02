@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS, CONTACT } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
+import { LogoFull } from "@/components/ui/logo";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,18 +32,8 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-8 h-[72px]">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center group-hover:bg-accent transition-colors duration-300">
-            <span className="text-white font-bold text-sm">VH</span>
-          </div>
-          <span
-            className={`font-semibold text-lg tracking-tight transition-colors ${
-              scrolled ? "text-primary" : "text-primary"
-            }`}
-          >
-            Vision Hub
-          </span>
+        <Link href="/" className="group">
+          <LogoFull />
         </Link>
 
         {/* Desktop nav */}

@@ -23,7 +23,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="max-w-3xl">
             <p className="text-sm text-accent font-medium uppercase tracking-widest mb-4">Contact Us</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-primary">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold tracking-wide leading-[1.1] text-primary uppercase">
               Let&apos;s talk about your operations.
             </h1>
             <p className="mt-6 text-lg text-muted leading-relaxed max-w-2xl">
@@ -160,7 +160,7 @@ export default function ContactPage() {
           {/* Sidebar */}
           <div className="lg:col-span-2 space-y-6">
             {/* Book a call */}
-            <div className="bg-primary rounded-2xl p-8 text-white">
+            <div className="bg-accent rounded-2xl p-8 text-white">
               <Calendar size={24} className="text-accent mb-4" />
               <h3 className="text-lg font-semibold mb-2">Book a Call</h3>
               <p className="text-white/60 text-sm leading-relaxed mb-6">

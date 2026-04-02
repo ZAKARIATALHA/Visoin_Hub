@@ -10,7 +10,7 @@ export function FinalCTA() {
     <section className="bg-dark py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-5 sm:px-8 text-center">
         <FadeUp>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white tracking-tight leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-semibold text-white tracking-wide leading-tight uppercase">
             Ready to build your operations<br className="hidden sm:block" /> in Morocco?
           </h2>
         </FadeUp>

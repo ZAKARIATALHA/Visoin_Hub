@@ -28,7 +28,7 @@ export default function ServicesPage() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="max-w-3xl">
             <p className="text-sm text-accent font-medium uppercase tracking-widest mb-4">Our Services</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-primary">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold tracking-wide leading-[1.1] text-primary uppercase">
               Outsourcing services built for execution.
             </h1>
             <p className="mt-6 text-lg text-muted leading-relaxed max-w-2xl">
@@ -86,7 +86,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              <div className="bg-primary rounded-2xl p-8 md:p-10 text-white">
+              <div className="bg-accent rounded-2xl p-8 md:p-10 text-white">
                 <h3 className="text-lg font-semibold mb-4">Expected Outcome</h3>
                 <p className="text-white/70 leading-relaxed mb-6">{s.outcome}</p>
                 <div className="border-t border-white/10 pt-6">
@@ -116,7 +116,7 @@ export default function ServicesPage() {
       {/* CTA */}
       <section className="bg-dark py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white tracking-wide uppercase">
             Need a custom solution?
           </h2>
           <p className="mt-4 text-lg text-white/60 max-w-xl mx-auto">

@@ -11,7 +11,7 @@ export function TrustStrip() {
         <FadeIn>
           <div className="text-center mb-10">
             {/* Transsion Holdings — primary prominence */}
-            <div className="inline-flex items-center justify-center h-16 px-10 bg-primary rounded-xl mb-4">
+            <div className="inline-flex items-center justify-center h-16 px-10 bg-accent rounded-xl mb-4">
               {/* ← Replace with real Transsion Holdings logo in /public/logos/ */}
               <span className="text-lg font-bold text-white tracking-wide">TRANSSION HOLDINGS</span>
             </div>

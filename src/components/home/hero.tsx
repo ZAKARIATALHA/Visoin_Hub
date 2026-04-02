@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { FadeUp } from "@/components/ui/motion";
+import { LogoMark } from "@/components/ui/logo";
 import { CONTACT } from "@/lib/constants";
 import { ArrowRight } from "lucide-react";
 
@@ -10,12 +11,14 @@ export function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center bg-background overflow-hidden">
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: "linear-gradient(to right, #1a1a1a 1px, transparent 1px), linear-gradient(to bottom, #1a1a1a 1px, transparent 1px)",
+        backgroundImage: "linear-gradient(to right, #193856 1px, transparent 1px), linear-gradient(to bottom, #193856 1px, transparent 1px)",
         backgroundSize: "60px 60px",
       }} />
 
-      {/* Accent decoration */}
-      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-accent/5 rounded-full blur-3xl -translate-y-1/2" />
+      {/* Brand star watermark */}
+      <div className="absolute top-1/2 right-[-5%] -translate-y-1/2 opacity-[0.04]">
+        <LogoMark size={600} color="#006050" />
+      </div>
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="max-w-3xl">
@@ -27,7 +30,7 @@ export function HeroSection() {
           </FadeUp>
 
           <FadeUp delay={1}>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] font-semibold tracking-tight leading-[1.1] text-primary">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem] font-semibold tracking-wide leading-[1.1] text-primary uppercase">
               Build and scale your operations in Morocco with a{" "}
               <span className="text-accent">trusted partner</span>.
             </h1>
@@ -56,7 +59,7 @@ export function HeroSection() {
           <FadeUp delay={4}>
             <p className="mt-12 text-sm text-muted-light">
               Official operations partner of{" "}
-              <span className="text-muted font-medium">Transsion Holdings</span>{" "}
+              <span className="text-accent font-medium">Transsion Holdings</span>{" "}
               in Morocco — Carlcare, Infinix, Tecno, Itel & Oraimo
             </p>
           </FadeUp>

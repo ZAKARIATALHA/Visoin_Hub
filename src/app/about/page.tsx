@@ -43,7 +43,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="max-w-3xl">
             <p className="text-sm text-accent font-medium uppercase tracking-widest mb-4">About Vision Hub</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-primary">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold tracking-wide leading-[1.1] text-primary uppercase">
               Your operational partner in Morocco.
             </h1>
             <p className="mt-6 text-lg text-muted leading-relaxed max-w-2xl">
@@ -59,7 +59,7 @@ export default function AboutPage() {
       <Section className="bg-surface-alt">
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div>
-            <h2 className="text-3xl font-semibold text-primary tracking-tight mb-6">Our Story</h2>
+            <h2 className="font-heading text-3xl font-semibold text-primary tracking-wide mb-6 uppercase">Our Story</h2>
             <div className="space-y-4 text-muted leading-relaxed">
               <p>
                 Vision Hub started from a simple observation: international brands entering Morocco
@@ -76,11 +76,11 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="bg-primary rounded-2xl p-10 md:p-14 text-white">
+          <div className="bg-accent rounded-2xl p-10 md:p-14 text-white">
             <div className="space-y-8">
               <div>
                 <div className="flex items-center gap-3 mb-3">
-                  <Target size={20} className="text-accent" />
+                  <Target size={20} className="text-gold" />
                   <h3 className="font-semibold text-lg">Mission</h3>
                 </div>
                 <p className="text-white/70 leading-relaxed">
@@ -91,7 +91,7 @@ export default function AboutPage() {
               <div className="border-t border-white/10" />
               <div>
                 <div className="flex items-center gap-3 mb-3">
-                  <Eye size={20} className="text-accent" />
+                  <Eye size={20} className="text-gold" />
                   <h3 className="font-semibold text-lg">Vision</h3>
                 </div>
                 <p className="text-white/70 leading-relaxed">
@@ -177,7 +177,7 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="bg-dark py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white tracking-wide uppercase">
             Want to work with us?
           </h2>
           <p className="mt-4 text-lg text-white/60 max-w-xl mx-auto">

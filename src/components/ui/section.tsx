@@ -30,7 +30,7 @@ export function SectionHeader({
   return (
     <div className={`mb-14 md:mb-18 ${center ? "text-center" : ""}`}>
       <h2
-        className={`text-3xl font-semibold tracking-tight sm:text-4xl md:text-[2.75rem] leading-tight ${
+        className={`font-heading text-3xl font-semibold tracking-wide sm:text-4xl md:text-[2.75rem] leading-tight uppercase ${
           light ? "text-white" : "text-primary"
         }`}
       >

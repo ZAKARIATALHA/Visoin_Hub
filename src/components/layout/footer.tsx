@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SITE, CONTACT, NAV_LINKS } from "@/lib/constants";
 import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { LogoFull } from "@/components/ui/logo";
 
 export function Footer() {
   return (
@@ -9,13 +10,8 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2.5">
-              <div className="w-9 h-9 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">VH</span>
-              </div>
-              <span className="font-semibold text-lg tracking-tight">
-                {SITE.name}
-              </span>
+            <Link href="/">
+              <LogoFull dark />
             </Link>
             <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">
               {SITE.tagline}

@@ -20,7 +20,7 @@ export function ProcessSection() {
           {PROCESS_STEPS.map((step, i) => (
             <FadeUp key={step.step} delay={i}>
               <div className="relative text-center lg:text-center">
-                <div className="relative z-10 mx-auto w-[72px] h-[72px] rounded-2xl bg-primary text-white flex items-center justify-center text-xl font-bold mb-5 shadow-lg">
+                <div className="relative z-10 mx-auto w-[72px] h-[72px] rounded-2xl bg-accent text-white flex items-center justify-center text-xl font-bold mb-5 shadow-lg font-heading">
                   {step.step.toString().padStart(2, "0")}
                 </div>
                 <h3 className="text-base font-semibold text-primary mb-2">

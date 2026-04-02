@@ -72,7 +72,7 @@ export default function IndustriesPage() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <div className="max-w-3xl">
             <p className="text-sm text-accent font-medium uppercase tracking-widest mb-4">Industries</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.1] text-primary">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-semibold tracking-wide leading-[1.1] text-primary uppercase">
               Sector expertise that drives results.
             </h1>
             <p className="mt-6 text-lg text-muted leading-relaxed max-w-2xl">
@@ -125,7 +125,7 @@ export default function IndustriesPage() {
       {/* CTA */}
       <section className="bg-dark py-20 md:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl font-semibold text-white tracking-wide uppercase">
             Don&apos;t see your industry?
           </h2>
           <p className="mt-4 text-lg text-white/60 max-w-xl mx-auto">
