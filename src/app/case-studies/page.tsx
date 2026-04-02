@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Case Studies",
   description:
-    "See how Vision Hub has delivered outsourcing and operational support for brands like Carlcare and Geely in Morocco.",
+    "See how Vision Hub delivers outsourcing and operational support for Carlcare and Transsion Holdings brands in Morocco.",
 };
 
 export default function CaseStudiesPage() {

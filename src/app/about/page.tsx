@@ -67,8 +67,8 @@ export default function AboutPage() {
                 operational picture — from hiring and training to deployment, supervision, and performance tracking.
               </p>
               <p>
-                Today, we work with brands like Carlcare (Transsion Group) and Geely, managing field operations,
-                customer support teams, and operational execution across multiple cities in Morocco.
+                Today, we operate as the local execution partner for Carlcare (Transsion Holdings), managing
+                operations, retail, and marketing across their full brand portfolio — Infinix, Tecno, Itel, and Oraimo — in multiple cities across Morocco.
               </p>
               <p>
                 Our approach is built on accountability, structured processes, and a deep understanding

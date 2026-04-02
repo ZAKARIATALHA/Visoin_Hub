@@ -92,35 +92,22 @@ export const METRICS = [
   { value: "50+", label: "Active Field & Support Staff" },
   { value: "10+", label: "Cities Covered in Morocco" },
   { value: "48h", label: "Average Deployment Time" },
-  { value: "2", label: "International Brand Partners" },
+  { value: "4", label: "Brands Under Management" },
 ] as const;
 
 export const CASE_STUDIES = [
   {
     client: "Carlcare",
-    parent: "Transsion Group",
+    parent: "Transsion Holdings",
     slug: "carlcare",
     industry: "Consumer Electronics",
     challenge:
-      "Carlcare needed structured field operations and customer support execution in Morocco to maintain service quality across multiple cities for Transsion's mobile brands.",
+      "Carlcare, the after-sales service arm of Transsion Holdings, needed a reliable operations partner in Morocco to manage field operations, retail execution, and customer support across multiple cities for its portfolio of brands — Infinix, Tecno, Itel, and Oraimo.",
     solution:
-      "Vision Hub deployed trained field and support teams across key locations, with standardized processes, daily reporting, and coordinated logistics to ensure consistent service delivery.",
-    scope: ["Field operations", "Customer support staffing", "Multi-city coordination", "Quality assurance"],
+      "Vision Hub became Carlcare's operational backbone in Morocco, deploying trained teams across key locations to handle retail operations, marketing activations, field coordination, and customer-facing support. We built standardized processes with daily reporting and structured QA across all four brands.",
+    scope: ["Retail operations", "Marketing & activations", "Field operations", "Customer support", "Multi-brand coordination"],
     outcome:
-      "Improved on-ground execution consistency, faster response times, and a reliable operational structure that scaled with Carlcare's growing presence in Morocco.",
-  },
-  {
-    client: "Geely",
-    parent: "Geely Auto",
-    slug: "geely",
-    industry: "Automotive",
-    challenge:
-      "Geely required operational support to strengthen its brand presence and retail execution during its expansion in the Moroccan automotive market.",
-    solution:
-      "Vision Hub provided field teams and operational support aligned with Geely's brand standards, covering retail activations, staffing, and on-ground coordination.",
-    scope: ["Brand activation", "Retail staffing", "Field coordination", "Operational support"],
-    outcome:
-      "Stronger retail presence, well-executed brand activations, and a dependable local operations partner supporting Geely's market entry.",
+      "Consistent operational execution across Infinix, Tecno, Itel, and Oraimo — with improved field coverage, stronger retail presence, and a scalable structure that grows with Carlcare's expansion in Morocco.",
   },
 ] as const;
 
