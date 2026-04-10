@@ -110,7 +110,7 @@ export default function ContactPage() {
                         id="phone"
                         name="phone"
                         type="tel"
-                        placeholder="+212 XXXXXXXXX"
+                        placeholder="+212 778 238 464"
                         className="w-full rounded-lg border border-border bg-background px-4 py-3 text-sm text-primary placeholder:text-muted-light focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors"
                       />
                     </div>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                   </div>
                 </a>
                 <a
-                  href={`tel:${CONTACT.phone}`}
+                  href={`tel:${CONTACT.phoneTel}`}
                   className="flex items-start gap-3 group"
                 >
                   <Phone size={18} className="text-accent mt-0.5 shrink-0" />

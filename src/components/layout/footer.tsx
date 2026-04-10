@@ -89,7 +89,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Phone size={16} className="mt-0.5 text-accent shrink-0" />
                 <a
-                  href={`tel:${CONTACT.phone}`}
+                  href={`tel:${CONTACT.phoneTel}`}
                   className="text-sm text-white/60 hover:text-accent transition-colors"
                 >
                   {CONTACT.phone}

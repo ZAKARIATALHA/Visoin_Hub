@@ -14,9 +14,11 @@ export const SITE = {
 
 export const CONTACT = {
   email: "contact@visionhubgroup.ma", // ← replace
-  phone: "+212 5XX-XXXXXX", // ← replace
-  whatsapp: "+212 6XX-XXXXXX", // ← replace
-  whatsappLink: "https://wa.me/2126XXXXXXXX", // ← replace
+  /** Display + tel: — E.164 without spaces */
+  phoneTel: "+212778238464",
+  phone: "+212 778 238 464",
+  whatsapp: "+212 778 238 464",
+  whatsappLink: "https://wa.me/212778238464",
   address: "Casablanca, Morocco", // ← replace
   bookingUrl: "#contact", // ← replace with Calendly or booking link
 } as const;
