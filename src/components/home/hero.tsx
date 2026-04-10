@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { FadeUp } from "@/components/ui/motion";
-import { LogoMark } from "@/components/ui/logo";
 import { CONTACT } from "@/lib/constants";
 import { ArrowRight } from "lucide-react";
 
@@ -15,10 +14,6 @@ export function HeroSection() {
         backgroundSize: "60px 60px",
       }} />
 
-      {/* Brand star watermark */}
-      <div className="absolute top-1/2 right-[-5%] -translate-y-1/2 opacity-[0.04]">
-        <LogoMark size={600} />
-      </div>
 
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="max-w-3xl">
