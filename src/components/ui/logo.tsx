@@ -6,12 +6,11 @@ interface LogoMarkProps {
   white?: boolean;
 }
 
-// PNG logo mark — place file at /public/Logo-Vision-Hub-Green.png
-// For dark/footer backgrounds, place white version at /public/Logo-Vision-Hub-White.png
 export function LogoMark({ size = 36, className = "", white }: LogoMarkProps) {
   return (
     <Image
-      src={white ? "/Logo-Vision-Hub-White.png" : "/Logo-Vision-Hub-Green.png"}
+      // Use the same logo asset across all contexts.
+      src="/logovhg.png"
       alt="Vision Hub"
       width={size}
       height={size}

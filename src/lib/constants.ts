@@ -13,7 +13,7 @@ export const SITE = {
 } as const;
 
 export const CONTACT = {
-  email: "contact@visionhub.ma", // ← replace
+  email: "contact@visionhubgroup.ma", // ← replace
   phone: "+212 5XX-XXXXXX", // ← replace
   whatsapp: "+212 6XX-XXXXXX", // ← replace
   whatsappLink: "https://wa.me/2126XXXXXXXX", // ← replace
