@@ -13,7 +13,7 @@ export const SITE = {
 } as const;
 
 export const CONTACT = {
-  email: "contact@visionhubgroup.ma", // ← replace
+  email: "contact@visionhubgroup.com", // ← replace
   /** Display + tel: — E.164 without spaces */
   phoneTel: "+212778238464",
   phone: "+212 778 238 464",
